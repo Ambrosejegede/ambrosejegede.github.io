@@ -186,7 +186,7 @@
                             <div class="info">
                                 <!-- your name-->
                                 <div class="head">Name</div>
-                                <div class="sub-title">Felix Abode</div>
+                                <div class="sub-title">Ambrose Jegede</div>
                             </div>
                         </div>
                         <div class="row">
