@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>BluelightEncoders</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="plugins/bootstrap-3.4.1/css/bootstrap.min.css"/>
+    <link rel="shortcut icon" href="image/me.JPEG" type="image/x-icon">
+</head>
+<body>
+    <!-- Felix only change the words that are enclosed in a tag, Example "<div>This is the part you'll change<div>"-->
+    <nav class="navba">
+        <div class="max-width">
+            <div class="logo"><a href="#">Bluelight<span>Encoders</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#works" class="menu-btn">My Works</a></li>
+                <li><a href="#contact" class="menu-btn">Contacts</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home selection start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <p class="p">Software Developer, Computer Scientist</p>
+                <div class="text-1">Hi, I'm</div>
+                <div class="text-2">Ambrose Jegede</div>
+                <div class="text-3">And this is our <span class="typing-2">Personal Blog</span></div>
+                <a href="https://www.facebook.com/profile.php?id=100089947475468">Facebook Page</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section start-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <!--all your image contact me to change them if you need to-->
+                    <img src="image/also.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <p> Bluelight Encoders was created to give you the customers, Knowledge and help you deserve. We being software and web developers you shouldn't miss, along with programming informations to keep you posted.
+                    We would make sure you get the best Thing!!!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Developing/Designing Web Application</li>
+                            <li><span>Software Development</span><br>Developing/Designing Web Application</li>
+                            <li><span>Web Design</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Electronics Works</span><br><bold>Hoping to work for a firm soon....</bold></li>
+                            <li><span>Software Development</span><br><bold>Hoping to work for a firm soon....<bold></li>
+                            <li><span>Web Design</span><br><bold>Hoping to work for a firm soon....</bold></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Electronics Works</span><br><bold>2019 - 2022 @Govt. Science and Technical College</bold></li>
+                            <li><span>Software Development</span><br><bold>2019 - Till Date @Sololearn & CISCO<bold></li>
+                            <li><span>Web Design</span><br><bold>2017 - Till Date @Sololearn & CISCO</bold></li>
+                        </ul>
+                    </div>
+                    <a href="https://www.facebook.com/profile.php?id=100089947475468">Our facebook Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section start-->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Our services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">web development</div>
+                        <P>We develop amazing webpages e.g, landing,e-commerce, portfolio and blogging websites.</P>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">software development</div>
+                        <P>We also develop and improve on python software for the betterness of humanity</P>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">web design</div>
+                        <P>We also create and give beautiful designs for your webpages</P>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- service section start-->
+    <section class="servicess" id="works">
+        <div class="max-width">
+            <h2 class="title">My Works</h2>
+            <div class="serv-contents">
+                <div class="work">
+                    <img src="image/karate.png" alt="">
+                    <div class="layer">
+                        <h3>Karate Scoreboard</h3>
+                        <p>The webpage allows you to give scores to a contender with not only by inputing but also voice commands. and it works offline too. View it by clicking the link below</p>
+                        <a href="#karate" onclick="show()"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/shop.png" alt="">
+                    <div class="layer">
+                        <h3>E-commerce webpage</h3>
+                        <p>It's a Demo webpage were you canshopfor amazing contents. View it now.</p>
+                        <a href="#shop" onclick="show()"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/speech.png" alt="">
+                    <div class="layer">
+                        <h3>Offline speech recognition App</h3>
+                        <p>It's an offline speech recognition app that works just like alexa and does everything it can compute. View More.</p>
+                        <a href="#speech" onclick="show()"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button class="btn" id="s" onclick="show()">See More</button>
+            <button class="btn" id="u" onclick="unshow()">Close</button>
+            <div class="column left" id = "h">
+            <div class="wid" id="wid">
+            <video  controls muted id="karate">
+                <source src="image/vid/karate.mp4" type="video/mp4">
+            </video>
+            <p> Watch a demo video on the offline Karate Scoreboard project that works with voice command and it's<br> also User friendly, which was created a few days back, which was created with, <bold>php,javascript,python and flask.</bold></p><br>
+            <video  controls muted id="speech">
+                <source src="image/vid/sspeech.mp4" type="video/mp4">
+            </video>
+            <p>You can also view a video on the offline Vosk speech recognition created with <bold>PYTHON</bold></p><br>
+            <video  controls muted id="shop">
+                <source src="image/vid/shop.mp4" type="video/mp4">
+            </video>
+            <p>View one of the amazing E-commerce site made by me,it's a demo where you can<br> order for items and goods, Click on the<a href="http://www.afarmstores.great-site.net">View Site</a> to view the webpage</p>
+            </div>
+        </div>
+            </div>
+    </section>
+    
+    <!-- contact section, felix it's for your email -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Get in touch with us if you ever feel down and don't feel brave enough to face your fears and pursue your dreams and feel better of yourserlf.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <!-- your name-->
+                                <div class="head">Name</div>
+                                <div class="sub-title">Felix Abode</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">example,plot example</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <!--edit where i wrote Youremail@gmail.com-->
+                                <div class="head">Email</div>
+                                <div class="sub-title">ambrosejegede01@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message Us</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe Project.."></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer sdection-->
+    <footer>
+        <span>Created By <a href="https://wa.me/+16412001608">Ambrose Jegede +16412001608</a> | <span class="far fa-copyright"></span>2022 All rights reserved.</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
