@@ -7,7 +7,7 @@ $(document).ready(function(){
         }
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Portfolio", "goal", "inspiration"],
+        strings: ["Portfolio", "Goal", "Portfolio"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
