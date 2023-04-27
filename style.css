@@ -727,4 +727,7 @@ footer span a:hover{
     video{
         width: 500px;
     }
+    *{
+        Background: #080808;
+     }
 }
